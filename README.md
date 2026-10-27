@@ -60,6 +60,18 @@ git clone https://github.com/Haoo-7/workbuddy-cnki-paper-pipeline.git \
   ~/.workbuddy/skills/workbuddy-cnki-paper-pipeline
 ```
 
+如果你的环境走 skills CLI，也可以直接：
+
+```bash
+npx skills add Haoo-7/workbuddy-cnki-paper-pipeline
+```
+
+或者把仓库地址交给 Agent，让它自己装：
+
+```text
+请安装这个 Skill：https://github.com/Haoo-7/workbuddy-cnki-paper-pipeline
+```
+
 没有 `pip install`，脚本只用 Python 3.10+ 标准库。
 
 ## 依赖
@@ -74,7 +86,7 @@ git clone https://github.com/Haoo-7/workbuddy-cnki-paper-pipeline.git \
 零配置、零密钥。脚本不读环境变量里的令牌，也不落任何凭据文件；
 对象存储的上传凭证由运行时临时签发，只在内存里存活。
 
-## 怎么用
+## 使用
 
 说清三件事就够：**研究主题（含检索词）/ 目标 Zotero 分类 / 目标 ima 知识库**。
 其余信息它自己查，不会反复追问。
