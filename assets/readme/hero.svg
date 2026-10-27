@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">workbuddy-cnki-paper-pipeline —— 把知网一个主题的文献，一次收进 Zotero 与 ima</title>
+  <desc id="heroDesc">左侧是主张：一个主题的文献，一次收进两个库，流程为检索、下载、题录、去重、入库。右侧是真实运行输出：环境自检 REST 23119 与 MCP 23120 均通过，入库脚本逐篇挂载 PDF 附件成功。</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0C111A"/>
+      <stop offset="1" stop-color="#080B12"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" rx="26" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="25.5" fill="none" stroke="#1E2637"/>
+
+  <!-- 左：主张 -->
+  <g id="title-block" transform="translate(64 0)">
+    <text x="0" y="92" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="17" letter-spacing="2.4" fill="#E8552F">AGENT SKILL · CNKI → ZOTERO · IMA</text>
+
+    <text x="0" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+          font-size="54" font-weight="700" fill="#EDF1F7">一个主题的文献，</text>
+    <text x="0" y="230" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+          font-size="54" font-weight="700" fill="#EDF1F7">一次收进两个库</text>
+
+    <text x="0" y="276" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+          font-size="21" fill="#8A94A6">检索 · 下载 · 题录 · 去重 · 入库，脚本跑完，你只管读</text>
+
+    <text x="0" y="330" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="17" fill="#5D6679">workbuddy-cnki-paper-pipeline</text>
+  </g>
+
+  <!-- 右：真实运行输出 -->
+  <g id="run-log" transform="translate(668 48)">
+    <rect x="0" y="0" width="468" height="284" rx="14" fill="#0F141F" stroke="#232C3D"/>
+    <rect x="0" y="0" width="468" height="38" rx="14" fill="#141B29"/>
+    <rect x="0" y="24" width="468" height="14" fill="#141B29"/>
+    <circle cx="22" cy="19" r="4.5" fill="#3A4457"/>
+    <circle cx="38" cy="19" r="4.5" fill="#3A4457"/>
+    <circle cx="54" cy="19" r="4.5" fill="#3A4457"/>
+    <text x="76" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="14" fill="#67718A">terminal</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">
+      <text x="22" y="74" fill="#8A94A6">$ python scripts/zotero_mcp.py --check</text>
+      <text x="22" y="104" fill="#EDF1F7">REST 23119 (read-only) : <tspan fill="#46A758">OK</tspan></text>
+      <text x="22" y="130" fill="#EDF1F7">MCP  23120 (write)     : <tspan fill="#46A758">OK</tspan></text>
+
+      <text x="22" y="176" fill="#8A94A6">$ python scripts/push_zotero.py ...</text>
+      <text x="22" y="206" fill="#C9D1E0">58  IM7H9CE9  pdf:ok</text>
+      <text x="22" y="232" fill="#C9D1E0">40  I4H7QPCT  pdf:ok</text>
+      <text x="22" y="258" fill="#5D6679">…</text>
+      <text x="54" y="258" fill="#8A94A6">共处理 20 条</text>
+    </g>
+  </g>
+</svg>

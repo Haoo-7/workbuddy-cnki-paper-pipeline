@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="flowTitle flowDesc">
+  <title id="flowTitle">五阶段流程：检索、选题、下载、题录、入库</title>
+  <desc id="flowDesc">五个阶段依次是：检索并冻结结果（命中 61 条，去重后 52 条）；按相关度选题（挑 15 到 25 篇并说明取舍）；逐篇下载并校验 PDF 文件头；抓取详情页题录并与既有分类比对；最后写入 Zotero 条目并挂附件，同时灌入 ima 知识库。</desc>
+
+  <rect width="1200" height="340" rx="26" fill="#0C111A"/>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="25.5" fill="none" stroke="#1E2637"/>
+
+  <text x="52" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="16" letter-spacing="2.2" fill="#E8552F">FIVE STAGES · 一条命令跑完</text>
+
+  <g id="stage-1" transform="translate(52 88)">
+    <rect width="200" height="156" rx="14" fill="#0F141F" stroke="#232C3D"/>
+    <text x="18" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#E8552F">01</text>
+    <text x="18" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#EDF1F7">检索</text>
+    <text x="18" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#8A94A6">冻结 61 条结果</text>
+    <text x="18" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#8A94A6">去重后 52 条</text>
+  </g>
+
+  <g id="arrow-1" transform="translate(264 166)">
+    <path d="M-5 -8 L4 0 L-5 8" fill="none" stroke="#39435A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g id="stage-2" transform="translate(276 88)">
+    <rect width="200" height="156" rx="14" fill="#0F141F" stroke="#232C3D"/>
+    <text x="18" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#E8552F">02</text>
+    <text x="18" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#EDF1F7">选题</text>
+    <text x="18" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#8A94A6">挑 15–25 篇</text>
+    <text x="18" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#8A94A6">说明取舍理由</text>
+  </g>
+
+  <g id="arrow-2" transform="translate(488 166)">
+    <path d="M-5 -8 L4 0 L-5 8" fill="none" stroke="#39435A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g id="stage-3" transform="translate(500 88)">
+    <rect width="200" height="156" rx="14" fill="#0F141F" stroke="#232C3D"/>
+    <text x="18" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#E8552F">03</text>
+    <text x="18" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#EDF1F7">下载</text>
+    <text x="18" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#8A94A6">逐篇校验文件头</text>
+    <text x="18" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#8A94A6">扩展名不算数</text>
+  </g>
+
+  <g id="arrow-3" transform="translate(712 166)">
+    <path d="M-5 -8 L4 0 L-5 8" fill="none" stroke="#39435A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g id="stage-4" transform="translate(724 88)">
+    <rect width="200" height="156" rx="14" fill="#0F141F" stroke="#232C3D"/>
+    <text x="18" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#E8552F">04</text>
+    <text x="18" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#EDF1F7">题录</text>
+    <text x="18" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#8A94A6">详情页字段抓取</text>
+    <text x="18" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#8A94A6">与库比对去重</text>
+  </g>
+
+  <g id="arrow-4" transform="translate(936 166)">
+    <path d="M-5 -8 L4 0 L-5 8" fill="none" stroke="#39435A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g id="stage-5" transform="translate(948 88)">
+    <rect width="200" height="156" rx="14" fill="#121A26" stroke="#E8552F" stroke-opacity="0.55"/>
+    <text x="18" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#E8552F">05</text>
+    <text x="18" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#EDF1F7">入库</text>
+    <text x="18" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#8A94A6">Zotero 挂附件</text>
+    <text x="18" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#8A94A6">ima 灌全文</text>
+  </g>
+
+  <text x="52" y="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+        font-size="18" fill="#5D6679">每个阶段都有明确的验证点；失败项不会被悄悄吞掉，而是列进交付说明。</text>
+</svg>
